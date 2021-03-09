@@ -6,6 +6,7 @@ export default function Home() {
     <Header />
     <h2>H2 subtitle</h2>
     <p>Hello world!</p>
+  <Link to="/about/">Contact</Link>
   <img src="https://source.unsplash.com/random/400x200" alt="" />
   </div>
 }
