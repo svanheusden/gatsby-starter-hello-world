@@ -5,5 +5,6 @@ export default function Home() {
     <h1>H1 title</h1>
     <h2>H2 title</h2>
     <p>Hello world!</p>
+  <img src="https://source.unsplash.com/random/400x200" alt="" />
   </div>
 }
