@@ -1,5 +1,6 @@
-import React from "react"
+import Typography from "typography"
+import fairyGateTheme from "typography-theme-fairy-gates"
 
-export default function Header() {
-  return <h1>This is a header.</h1>
-}
+const typography = new Typography(fairyGateTheme)
+export const { scale, rhythm, options } = typography
+export default typography
