@@ -7,7 +7,7 @@ export default function Home({data}) {
   return <div>
     <Header />
     <h2>{data.site.siteMetadata.title}</h2>
-    <p>Hello Koeienkop!</p>
+    <p>Hello World</p>
   <Link to="/about/">Contact</Link>
   <img src="https://source.unsplash.com/random/400x200" alt="" />
   </div>
