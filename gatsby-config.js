@@ -6,7 +6,10 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Title from siteMetadata`,
+    title: 'Title from siteMetadata',
  },
- plugins: [],
+ plugins: [
+  'gatsby-transformer-remark'
+ 
+ ],
 }
