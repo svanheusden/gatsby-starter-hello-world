@@ -1,7 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
+import { graphql } from "gatsby"
 
-export default function About() {
+export default function About({ data }) {
+  console.log(data)
   return (
     <div style={{ color: `teal` }}>
       <h1>About Gatsby</h1>
@@ -11,20 +13,9 @@ export default function About() {
   )
 }
 
-import React from "react"
-import { graphql } from "gatsby"
-import Layout from "../components/layout"
 
-export default function MyFiles({ data }) {
-  console.log(data)
-  return (
-    <Layout>
-      <div>Hello world</div>
-    </Layout>
-  )
-}
 
-export const query = graphql`
+export const query = graphql'
   query {
     allFile {
       edges {
@@ -37,4 +28,4 @@ export const query = graphql`
       }
     }
   }
-`
+'
